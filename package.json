@@ -26,6 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "coveralls": "^3.1.0"
   }
 }

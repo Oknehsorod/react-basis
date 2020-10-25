@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/Oknehsorod/react-basis.svg?branch=main)](https://travis-ci.com/Oknehsorod/react-basis)
+[![Coverage Status](https://coveralls.io/repos/github/Oknehsorod/react-basis/badge.svg?branch=main)](https://coveralls.io/github/Oknehsorod/react-basis?branch=main)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -17,9 +17,7 @@ export function createRoutes(routes: Route[]) {
       return <Redirect key={path} to={redirectTo} />;
     } else {
       return (
-        <RouteDOM key={path} path={path} exact={exact}>
-          {component}
-        </RouteDOM>
+      <RouteDOM key={path} path={path} exact={exact}>{React.createElement(component)}</RouteDOM>
       );
     }
   });
